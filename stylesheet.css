@@ -17,13 +17,16 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    text-align: center;
 
     color: rgb(255, 255, 255)
 }
 
-.left, .right {
-    background-color: rgb(25, 58, 23);
+.body {
+    background: linear-gradient(to bottom, rgb(76, 47, 20) 0%, rgb(18, 90, 29) 100%);
+}
 
+.left, .right {
     margin: 5px;
     max-width: 50%;
     flex: 1;
@@ -45,7 +48,6 @@ html, body {
     list-style: none;
     padding-left: 0px;
     font-size: 18px;
-    color: white;
 }
 
 .social-links li {
@@ -56,6 +58,14 @@ html, body {
 .social-links a {
     text-decoration: none;
     padding: 4px;
+}
+
+.social-links a:link {
+    color: white;
+}
+
+.social-links a:visited {
+    color:  whitesmoke;
 }
 
 .social-links a:hover {
