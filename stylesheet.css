@@ -10,13 +10,6 @@
     flex-direction: row;
 }
 
-.opi {
-    max-width: 50%;
-    display: flex;
-    height: 80%;
-    flex-direction: column;
-}
-
 .opus {
     display: flex;
     flex-direction: column;
