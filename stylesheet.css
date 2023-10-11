@@ -17,10 +17,8 @@
 
 .opus {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
-
-
 
 html, body {
     display: flex;
@@ -35,7 +33,7 @@ html, body {
 }
 
 .body {
-    background: linear-gradient(to bottom, rgb(36, 97, 31) 0%, rgb(60, 84, 116));
+    background-color:rgb(45, 67, 95);
 }
 
 .left, .right {
