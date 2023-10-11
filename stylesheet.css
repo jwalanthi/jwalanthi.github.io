@@ -15,7 +15,7 @@
     flex-direction: column;
 }
 
-.opi {
+.opus {
     display: flex;
     flex-direction: row;
 }
@@ -35,7 +35,7 @@ html, body {
 }
 
 .body {
-    background: linear-gradient(to bottom, rgba(76, 47, 20, 0) 0%, rgba(18, 90, 29, 1) 100%);
+    background: linear-gradient(to bottom, rgb(36, 97, 31) 0%, rgb(60, 84, 116));
 }
 
 .left, .right {
@@ -50,10 +50,6 @@ html, body {
 .left {
     align-items: center;
     justify-content: center;
-}
-
-.profile-picture {
-    border-radius: 50%;
 }
 
 .social-links {
